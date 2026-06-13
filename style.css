@@ -597,7 +597,7 @@ footer{
 @media screen and (max-width: 480px) {
     .hero-row {
         display: flex;
-        flex-direction: column-reverse !important; /* Pasa la imagen arriba del texto */
+        flex-direction: column-reverse !important; 
     }
 
     .hero-texto {
@@ -622,12 +622,12 @@ footer{
         object-position: center center; 
     }
 
+    
     .hero-imagen::before {
-        width: 100% !important; 
-        height: 40%; 
-        background: linear-gradient(to top, #0589EE 0%, rgba(5, 137, 238, 0) 100%); 
+        display: none !important; 
     }
 
+ 
     #hero h1 {
         font-size: 20px;
     }
